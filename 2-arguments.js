@@ -1,7 +1,4 @@
-newFunction();
-
-function newFunction() {
-    const args = process.argv.slice(2);
+const args = process.argv.slice(2);
 
     if (args.length === 0) {
         console.log("No argument");
@@ -10,4 +7,3 @@ function newFunction() {
     } else {
         console.log("Arguments found");
     }
-}
